@@ -480,6 +480,7 @@
   }
   body .main .six-section .container .section-content .title {
     margin-bottom: 34px;
+    font-size: 35px;
   }
 }
 @media (max-width: 500px) {
