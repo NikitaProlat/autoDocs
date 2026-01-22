@@ -492,7 +492,7 @@
   body .main .six-section {
     margin-top: 51px;
     height: 445px;
-    background: url(../img/backgrounds/six-screen-bg2.png) no-repeat right -227px top 9px/1120px, #fff;
+    background-size: contain;
   }
   body .main .six-section .container {
     max-width: none;
@@ -660,7 +660,6 @@
     width: 6%;
   }
   body .main .six-section {
-    background: url(../img/backgrounds/six-screen-bg2.png) no-repeat right -227px top -18px/1120px, #fff;
     height: 345px;
   }
   body .main .six-section .container {
