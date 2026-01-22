@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AutoDocs</title>
+    <link rel="icon" href="img/icons/favicon/favicon.png" type="image/png+xml">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="fonts/Gilroy/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '659278376116994');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=659278376116994&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+                <img src="img/logo.svg" alt="" class="navbar-brand">
+                <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+                    <div></div>
+                    <ul class="navbar-nav menu mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#third-section">How does it work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#five-section">Our services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#four-section">Advantages</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav link-group mb-2 mb-lg-0">
+                        <li class="nav-item">
+                           
+                        </li>
+                        <!-- <li class="nav-item active">
+                            <a class="nav-link">ENG</a>
+                        </li> -->
+                    </ul>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <a href="https://t.me/pravazbazoy"><button class="btn btn-vb me-md-2"
+                                type="button"></button></a>
+                        <a href="https://t.me/pravazbazoy"><button class="btn btn-tg" type="button"></button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-logo">
+                        <img src="img/logo.svg" alt="" class="navbar-brand">
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="navbar-nav navbar-item1 link-group mb-2 mb-lg-0">
+                        <div class="nav-item" data-bs-dismiss="modal">
+                           
+                        </div>
+                        <!-- <div class="nav-item active" data-bs-dismiss="modal">
+                            <a class="nav-link">ENG</a>
+                        </div> -->
+                    </ul>
+                    <ul class="navbar-nav navbar-item2 menu mb-2 mb-lg-0">
+                        <li class="nav-item" data-bs-dismiss="modal">
+                            <a class="nav-link" href="#third-section">How does it work</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="modal">
+                            <a class="nav-link" href="#five-section">Our services</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="modal">
+                            <a class="nav-link" href="#four-section">Advantages</a>
+                        </li>
+                    </ul>
+                    <div class="gap-2 d-md-flex navbar-item3">
+                        <a href="https://t.me/pravazbazoy"><button class="btn btn-vb me-md-2" type="button"
+                                data-bs-dismiss="modal"></button></a>
+                        <a href="https://t.me/pravazbazoy"><button class="btn btn-tg" type="button"
+                                data-bs-dismiss="modal"></button></a>
+                    </div>
+                   
+                            
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-contacts" id="Modal1" aria-labelledby="ModalLabel2" aria-hidden="true" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="section-content">
+                        <p class="title">
+                            Choose a convenient messenger for you
+                        </p>
+                        <div class="subtitle">
+                            <div class="block-button">
+                                <a href="https://t.me/pravazbazoy">
+                                    <img src="img/icons/tg-icon2.svg" alt="">
+                                </a>
+                                <a href="https://t.me/pravazbazoy">
+                                    <img src="img/icons/wa-icon.svg" alt="">
+                                </a>
+                            </div>
+                            <img src="img/icons/chat-icon.svg" alt="" class="img-icon">
+                            <div class="text">We'll consult you free</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <section class="section first-section">
+            <div class="container">
+                <div class="section-content">
+                    <p class="title">GUARANTEED RECEIPT OF AN EU DRIVER'S LICENSE</p>
+                    <div class="elipse-bg" style="top: -7px; right: 18px;"></div>
+                    <ul>
+                        <li>
+                            <img src="img/icons/list-marker.svg" alt="">
+                            <span>Official and confidential</span>
+                        </li>
+                        <li>
+                            <img src="img/icons/list-marker.svg" alt="">
+                            <span>First receipt or restoration</span>
+                        </li>
+                        <li>
+                            <img src="img/icons/list-marker.svg" alt="">
+                            <span>Assistance in resolving issues of bans, arrests and confiscation of driver's licenses</span>
+                        </li>
+                    </ul>
+                    <div class="elipse-bg2" style="height: 500px;"></div>
+                    <button class="btn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                        <span>Messenger us</span>
+                        <img src="img/icons/tg-btn-icon.svg" alt="" class="tg-btn-icon">
+                    </button>
+                </div>
+                <div class="icon-anim">
+                    <div class="icon-wrapper">
+                        <div class="mouse">
+                            <div class="mouse-element"></div>
+                        </div>
+                        <div class="arrow arrow1"></div>
+                        <div class="arrow arrow2"></div>
+                    </div>
+                </div>
+                <div class="icon-anim-mobile">
+                    <div class="icon-wrapper">
+                        <div class="arrow arrow1"></div>
+                        <div class="arrow arrow2"></div>
+                        <div class="hand"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section second-section">
+            <div class="container">
+                <div class="container-title">
+                    How does it work?
+                </div>
+                <div class="block-cards">
+                    <div class="card_">
+                        <div class="card__number">
+                            <span>01</span>
+                        </div>
+                        <div class="card__content">
+                            <div class="card__img img1"></div>
+                            <div class="card-text card__title">
+                                Send a request to us in messenger
+                            </div>
+                            <div class="card-text card__subtitle">
+                                We clarify all the details and take
+                                your order to work
+                            </div>
+                        </div>
+                        <div class="card-lining"></div>
+                    </div>
+                    <div class="card_">
+                        <div class="card__number">
+                            <span>02</span>
+                        </div>
+                        <div class="card__content">
+                            <div class="card__img img2"></div>
+                            <div class="card-text card__title">
+                                We prepare your
+                                documents
+                            </div>
+                            <div class="card-text card__subtitle">
+                                We take care of the entire registration process
+                            </div>
+                        </div>
+                        <div class="card-lining"></div>
+                    </div>
+                    <div class="card_">
+                        <div class="card__number">
+                            <span>03</span>
+                        </div>
+                        <div class="card__content">
+                            <div class="card__img img3"></div>
+                            <div class="card-text card__title">
+                                We send you photos of documents
+                            </div>
+                            <div class="card-text card__subtitle">
+                                You check all the information and make payment
+                            </div>
+                        </div>
+                        <div class="card-lining"></div>
+                    </div>
+                    <div class="card_">
+                        <div class="card__number">
+                            <span>04</span>
+                        </div>
+                        <div class="card__content">
+                            <div class="card__img img4"></div>
+                            <div class="card-text card__title">
+                                We send by postal service or courier 
+                            </div>
+                            <div class="card-text card__subtitle">
+                                Receive a complete set of documents
+                            </div>
+                        </div>
+                        <div class="card-lining"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="third-section" class="section third-section">
+            <div class="container-title">
+                Our services
+            </div>
+            <div class="block-cards">
+                <div class="line"></div>
+                <div class="container container-cont">
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_ card_01">
+                                <div class="card-object card-title">Categories А, А1</div>
+                                <div class="card-object card-subtitle">We add it to the database</div>
+                                <div class="card-object card-selection-subtitle">Actual price
+                                    check with the manager</div>
+                                <div class="card-object card-btn-gradient">
+                                    <button class="card-btn btn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                                        <span>Order</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_ card_02">
+                                <div class="card-object card-title">Categories В, В1</div>
+                                <div class="card-object card-subtitle">We add it to the database</div>
+                                <div class="card-object card-selection-subtitle">Actual price
+                                    check with the manager</div>
+                                <div class="card-object card-btn-gradient">
+                                    <button class="card-btn btn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                                        <span>Order</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block-cards">
+                <div class="line"></div>
+                <div class="container container-cont">
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_ card_03">
+                                <div class="card-object card-title">Categories А, А1, В, В1</div>
+                                <div class="card-object card-subtitle">We add it to the database</div>
+                                <div class="card-object card-selection-subtitle">Actual price
+                                    check with the manager</div>
+                                <div class="card-object card-btn-gradient">
+                                    <button class="card-btn btn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                                        <span>Order</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_ card_04">
+                                <div class="card-object card-title">Categories А, А1, В, В1, С, С1</div>
+                                <div class="card-object card-subtitle">We add it to the database</div>
+                                <div class="card-object card-selection-subtitle">Actual price
+                                    check with the manager</div>
+                                <div class="card-object card-btn-gradient">
+                                    <button class="card-btn btn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                                        <span>Order</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+            
+                        <div class="block-cards">
+                <div class="line"></div>
+                <div class="container container-cont">
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_ card_05">
+                                <div class="card-object card-title">Categories D1, D</div>
+                                <div class="card-object card-subtitle">We add it to the database</div>
+                                <div class="card-object card-selection-subtitle">Actual price
+                                    check with the manager</div>
+                                <div class="card-object card-btn-gradient">
+                                    <button class="card-btn btn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                                        <span>Order</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_ card_06">
+                                <div class="card-object card-title">Categories BE, C1E, CE, D1E, DE</div>
+                                <div class="card-object card-subtitle">We add it to the database</div>
+                                <div class="card-object card-selection-subtitle">Actual price
+                                    check with the manager</div>
+                                <div class="card-object card-btn-gradient">
+                                    <button class="card-btn btn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                                        <span>Order</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+            
+            
+            
+            <div class="block-cards-bottom">
+                <div class="line"></div>
+                <div class="container container-cont">
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_ card_05">
+                                <div class="card-text card__title">
+                                    We provide only
+                                    official services
+                                </div>
+                                <div class="card-text card__subtitle">
+                                    When ordering from us, you
+                                    receive legal documents
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_ card_06">
+                                <div class="card-text card__title">
+                                    We can deliver to any city in the EU, as well as throughout the CIS
+                                </div>
+                                <div class="card-text card__subtitle">
+                                    Sending by postal and courier services
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_ card_07">
+                                <div class="card-text card__title">
+                                    We work without prepayment
+                                </div>
+                                <div class="card-text card__subtitle">
+                                    We don't require any prepayment before registration
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_ card_08">
+                                <div class="card-text card__title">
+                                    Saving your
+                                    funds and time
+                                </div>
+                                <div class="card-text card__subtitle">
+                                    Everything happens without your presence. Minimum involvement
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="four-section" class="section four-section">
+       
+            <div class="slider-modals">
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_7.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_8.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_9.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_10.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_11.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_12.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_13.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_14.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_15.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/Screenshot_16.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/photo_2022-10-17_23-43-24.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/photo_2022-10-17_23-43-26.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/photo_2022-10-17_23-43-28.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/photo_2022-10-17_23-43-30.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/photo_2022-10-17_23-43-32.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/photo_2022-10-17_23-43-48.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal21" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/photo_2022-10-17_23-43-58.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/photo_2022-10-17_23-44-00.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/photo_2022-10-17_23-44-06.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal24" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/four-screen/reviews/photo_2022-10-17_23-44-08.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="five-section" class="section five-section">
+            <div class="container-title">
+                Our advantages
+            </div>
+            <div class="content-container">
+                <div class="line"></div>
+                <div class="container container-cont">
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_">
+                                <div class="card-img img1"></div>
+                                <div class="card-text card-title">Registration of a driver's license without presence</div>
+                                <div class="card-text card-subtitle">Completely transparent process.
+                                    No hidden fees.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_">
+                                <div class="card-img img2"></div>
+                                <div class="card-text card-title">Official services
+                                    at the best price</div>
+                                <div class="card-text card-subtitle">We keep prices on
+                                    documents below average.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_wrapper">
+                        <div class="line"></div>
+                        <div class="container">
+                            <div class="card_">
+                                <div class="card-img img3"></div>
+                                <div class="card-text card-title">Online registration process, chat consultations</div>
+                                <div class="card-text card-subtitle">Messenger us
+                                    and receive the document within 14 days.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                <span>Messenger us</span>
+                <img src="img/icons/tg-btn-icon.svg" alt="" class="tg-btn-icon">
+            </button>
+        </section>
+        <section class="section six-section">
+            <div class="container">
+                <div class="section-content">
+                    <p class="title ">
+                        Choose a convenient messenger for you
+                    </p>
+                    <div class="subtitle">
+                        <div class="block-button">
+                            <a href="https://t.me/pravazbazoy">
+                                <img src="img/icons/tg-icon2.svg" alt="">
+                            </a>
+                            <a href="https://t.me/pravazbazoy">
+                                <img src="img/icons/wa-icon.svg" alt="">
+                            </a>
+                           
+                        </div>
+                        <img src="img/icons/chat-icon.svg" alt="" class="img-icon">
+                        <div class="text">We'll consult you free</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+                <img src="img/logo.svg" alt="" class="navbar-brand">
+                <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+                    <div></div>
+                    <ul class="navbar-nav menu mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#third-section">How does it work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#five-section">Our services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#four-section">Advantages</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav link-group mb-2 mb-lg-0">
+                        <li class="nav-item">
+                           
+                        </li>
+                        <!-- <li class="nav-item active">
+                            <a class="nav-link">ENG</a>
+                        </li> -->
+                    </ul>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <a href="https://t.me/pravazbazoy"><button class="btn btn-vb me-md-2"
+                                type="button"></button></a>
+                        <a href="https://t.me/pravazbazoy"><button class="btn btn-tg" type="button"></button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
