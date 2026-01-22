@@ -300,8 +300,12 @@ body .modal-contacts .modal-dialog .modal-content .modal-body .section-content .
   justify-content: space-evenly;
   align-items: center;
 }
+body .modal-contacts .modal-dialog .modal-content .modal-body .section-content .subtitle .block-button a {
+  align-items: center;
+}
 body .modal-contacts .modal-dialog .modal-content .modal-body .section-content .subtitle .block-button img {
   transition: all 0.3s ease;
+  height: 50px;
 }
 body .modal-contacts .modal-dialog .modal-content .modal-body .section-content .subtitle .block-button img:hover {
   transform: scale(1.1);
@@ -985,6 +989,10 @@ body .main .six-section .container .section-content .subtitle .block-button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+body .main .six-section .container .section-content .subtitle .block-button img {
+  width: 50px;
+  height: 50px;
 }
 body .main .six-section .container .section-content .subtitle .block-button img {
   transition: all 0.3s ease;
