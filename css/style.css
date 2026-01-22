@@ -306,6 +306,10 @@ body .modal-contacts .modal-dialog .modal-content .modal-body .section-content .
 body .modal-contacts .modal-dialog .modal-content .modal-body .section-content .subtitle .block-button img:hover {
   transform: scale(1.1);
 }
+body .modal-contacts .modal-dialog .modal-content .modal-body .section-content .subtitle .tempTitle {
+  display: flex;
+  align-items: center;
+}
 body .modal-contacts .modal-dialog .modal-content .modal-body .section-content .subtitle .text {
   font-weight: 400;
   font-size: 16px;
